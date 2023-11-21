@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider, Routes, Route, Link, Outlet } from
 const router = createBrowserRouter([{ path: "*", Component: Root }]);
 
 function Root() {
-    return 123
+    return <React.Fragment />
 }
 
 export default function App() {
